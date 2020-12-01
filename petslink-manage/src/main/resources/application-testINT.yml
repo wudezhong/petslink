@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+# 日志
+logging:
+  config.classpath: log4j2.xml
+  level.cn.jay.repository: trace
+
+#================数据源配置==================#
+spring:
+  datasource:
+    name: mydb
+    url: jdbc:mysql://localhost:3306/hotdog?useUnicode=true&useSSL=false&characterEncoding=utf8&allowMultiQueries=true
+    username: root
+    password: root
+    driverClassName: com.mysql.jdbc.Driver
+    initialSize: 10
+    minIdle: 10
+    maxActive: 200
+    timeBetweenEvictionRunsMillis: 1800000
+    minEvictableIdleTimeMillis: 1800000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: falsemysql-connector-java
+    testOnReturn: false

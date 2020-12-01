@@ -1,0 +1,32 @@
+2020-10-21 15:07:31.935 [restartedMain] [level] com.petslink.manage.PetslinkManageApplication org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) 
+[日志内容] Starting PetslinkManageApplication on DESKTOP-5HSCR5S with PID 23848 (D:\Project\IdeaProjects\petslink\petslink-manage\target\classes started by Sunny in D:\Project\IdeaProjects\petslink)
+2020-10-21 15:07:31.954 [restartedMain] [level] com.petslink.manage.PetslinkManageApplication org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:655) 
+[日志内容] The following profiles are active: dev
+2020-10-21 15:07:34.982 [restartedMain] [level] org.apache.coyote.http11.Http11NioProtocol org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) 
+[日志内容] Initializing ProtocolHandler ["http-nio-8080"]
+2020-10-21 15:07:34.984 [restartedMain] [level] org.apache.catalina.core.StandardService org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) 
+[日志内容] Starting service [Tomcat]
+2020-10-21 15:07:34.985 [restartedMain] [level] org.apache.catalina.core.StandardEngine org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) 
+[日志内容] Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-21 15:07:35.225 [restartedMain] [level] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) 
+[日志内容] Initializing Spring embedded WebApplicationContext
+2020-10-21 15:07:36.467 [restartedMain] [level] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) 
+[日志内容] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-21 15:07:37.010 [restartedMain] [level] org.apache.coyote.http11.Http11NioProtocol org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) 
+[日志内容] Starting ProtocolHandler ["http-nio-8080"]
+2020-10-21 15:07:37.051 [restartedMain] [level] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) 
+[日志内容] Context refreshed
+2020-10-21 15:07:37.077 [restartedMain] [level] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) 
+[日志内容] Found 1 custom documentation plugin(s)
+2020-10-21 15:07:37.126 [restartedMain] [level] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) 
+[日志内容] Scanning for api listing references
+2020-10-21 15:07:37.343 [restartedMain] [level] com.petslink.manage.PetslinkManageApplication org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) 
+[日志内容] Started PetslinkManageApplication in 6.318 seconds (JVM running for 9.245)
+2020-10-21 15:09:29.285 [http-nio-8080-exec-1] [level] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) 
+[日志内容] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-21 15:09:29.423 [http-nio-8080-exec-1] [level] com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) 
+[日志内容] mydb - Starting...
+2020-10-21 15:09:29.720 [http-nio-8080-exec-1] [level] com.zaxxer.hikari.HikariDataSource com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) 
+[日志内容] mydb - Start completed.
+2020-10-21 15:09:30.724 [http-nio-8080-exec-1] [level] com.petslink.manage.test.service.Impl.TestServiceImpl com.petslink.manage.test.service.Impl.TestServiceImpl.selectUser(TestServiceImpl.java:47) 
+[日志内容] testRedis缓存问题！

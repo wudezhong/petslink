@@ -1,0 +1,5 @@
+com\petslink\manage\test\controller\TestController.class
+com\petslink\manage\config\SwaggerConfig.class
+com\petslink\manage\test\service\TestService.class
+com\petslink\manage\test\service\Impl\TestServiceImpl.class
+com\petslink\manage\PetslinkManageApplication.class
