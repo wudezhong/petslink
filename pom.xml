@@ -20,7 +20,7 @@
         <module>petslink-customer</module>
         <module>petslink-manage</module>
     </modules>
-
+	<!-- JDK版本 -->
     <properties>
         <java.version>1.8</java.version>
     </properties>
