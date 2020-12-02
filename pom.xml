@@ -49,7 +49,7 @@
             </exclusions>
         </dependency>
     </dependencies>
-
+    <!-- Maven打包支持 -->
     <build>
         <plugins>
             <plugin>
