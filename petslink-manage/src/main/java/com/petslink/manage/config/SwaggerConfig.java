@@ -31,9 +31,9 @@ public class SwaggerConfig {
                 .paths(PathSelectors.any())
                 .build().apiInfo(new ApiInfoBuilder()
                         //标题
-                        .title("HotDog-Api文档")
+                        .title("PetsLink-Api文档")
                         //简介
-                        .description("HotDog项目")
+                        .description("PetsLink项目")
                         //版本
                         .version("9.0")
                         //作者个人信息
