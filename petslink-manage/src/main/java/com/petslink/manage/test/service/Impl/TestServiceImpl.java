@@ -34,7 +34,7 @@ public class TestServiceImpl implements TestService {
     @Override
     public void selectUser() {
         //测试数据库连接
-        String sql = "select * from user";
+        String sql = "select * from fu_user limit 10";
         List<Map<String, Object>> maps = jdbcTemplate.queryForList(sql);
         for (Map<String, Object> map : maps) {
             System.out.println(map);

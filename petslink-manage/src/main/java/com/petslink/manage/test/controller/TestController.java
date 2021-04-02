@@ -22,12 +22,18 @@ public class TestController {
     private TestService testService;
 
     @PostMapping("/selectUser")
-    @ApiOperation("用户查询")
+    @ApiOperation(value = "用户查询",notes = "测试数据库连接和redis访问")
     public String selectUser(
             @ApiParam(value = "用户ID", required = true) @RequestBody(required = true) User user) {
         testService.selectUser();
         return "查询成功了";
     }
+
+
+
+
+
+
 
 
 
