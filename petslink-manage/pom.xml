@@ -8,7 +8,7 @@
 		<version>2.3.4.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.petslink</groupId>
+    <groupId>com.wanliu.petslink</groupId>
 	<artifactId>petslink-manage</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>petslink-manage</name>
@@ -55,13 +55,13 @@
         </dependency>
         <!--引入公共的实体-->
         <dependency>
-            <groupId>com.petslink.petslink-common</groupId>
+            <groupId>com.wanliu.petslink.petslink-common</groupId>
             <artifactId>petslink-common-entity</artifactId>
             <version>${project.version}</version>
         </dependency>
         <!--引入工具类-->
         <dependency>
-            <groupId>com.petslink.petslink-common</groupId>
+            <groupId>com.wanliu.petslink.petslink-common</groupId>
             <artifactId>petslink-common-utils</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -108,6 +108,18 @@
             <artifactId>slf4j-api</artifactId>
             <scope>compile</scope>
             <optional>true</optional>
+        </dependency>
+        <!--谷歌验证码-->
+        <dependency>
+            <groupId>com.github.penggle</groupId>
+            <artifactId>kaptcha</artifactId>
+            <version>2.3.2</version>
+        </dependency>
+        <!-- fastjson -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.76</version>
         </dependency>
     </dependencies>
 
